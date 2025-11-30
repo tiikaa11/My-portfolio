@@ -28,5 +28,17 @@
     <p>أنا طالب هندسة، وهذا أول تطبيق عملي لي في تطوير الويب.</p>
     <p>قريباً سأملأ هذا المكان بمشاريعي.</p>
     <a href="https://github.com/tiikaa11" class="btn">زوروا حسابي على GitHub</a>
+    <!-- الزر الجديد -->
+<button onclick="showWelcome()" class="btn">اضغط هنا للمفاجأة</button>
+
+<!-- كود الجافاسكربت (العقل المدبر) -->
+<script>
+    function showWelcome() {
+        let name = prompt("ما هو اسمك؟");
+        if (name) {
+            alert("أهلاً بك يا مهندس " + name + " في موقعي!");
+        }
+    }
+</script>
 </body>
 </html>
